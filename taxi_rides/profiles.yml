@@ -1,0 +1,13 @@
+pg-dbt-workshop:
+  outputs:
+    dev:
+      dbname: ny_taxi
+      host: localhost
+      keepalives_idle: 0
+      password: root
+      port: 5432
+      schema: public
+      threads: 4
+      type: postgres
+      user: root
+  target: dev
